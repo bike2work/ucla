@@ -1,0 +1,91 @@
+<div class="text-center">
+  <img src="https://nfrc.ucla.edu/sites/default/files/star-clinic-logo.png" style="max-height: 60px;" alt="STAR Clinic Logo">
+  <h3>
+		Below you will find instructions for and access to our STAR Clinic Screening Information Form, which will help bring you into our clinic more quickly!<br>
+		<span class="text-muted">
+			Please feel free to read through this part or 
+			<a href="https://www.surveygizmo.com/s3/4783669/STAR-Screening-Information-Form" target="_blank">
+				skip to filling out the questionnaire
+			</a>.
+		</span>
+	</h3>	
+	<p>
+	  <a class="btn btn-primary" data-toggle="collapse" href="#clinic" role="button" aria-expanded="false" aria-controls="clinic">Our Clinic</a>
+	  <a class="btn btn-primary" data-toggle="collapse" href="#group" role="button" aria-expanded="false" aria-controls="group">STAR Groups</a>
+	  <a class="btn btn-primary" href="https://www.surveygizmo.com/s3/4783669/STAR-Screening-Information-Form" role="button" target="_blank">STAR Clinic Screening Information Form </a>
+	</p>
+</div>
+<div>
+    <div class="collapse" id="clinic">
+      <div class="card card-body">
+      	<p>
+        <span style="font-weight: bold; color: rgb(0,112,192);">The UCLA Family STAR</span> (Stress, Trauma, and Resilience) Clinic provides evaluation and treatment services (individual therapy) for children and families affected by chronic stress, traumatic events, family medical/mental health illnesses, grief and loss, major family structural or life changes, and other circumstances experienced as traumatic by families and family members.
+    	</p>
+        <p>
+        Children/adolescent psychiatrists and psychologists provide expertise and support for children and their family members experiencing chronic and/or traumatic stress due to adverse life experiences. STAR is also an educational resource and training clinic for UCLA Child Psychiatry Fellows and Psychology Interns. The clinic is located at UCLA, 760 Westwood Plaza in Westwood.
+    	</p>
+    	<p>
+        <span style="font-weight: bold; color:rgb(0,112,192);">At STAR Clinic, in addition to individual/family therapy, we offer 2 family/parenting groups: </span>
+        </p>
+        <p>
+        <span style="font-weight: bold; color:rgb(0,112,192);">STAR Superparenting Group</span> helps parents with children experiencing significant stress, anxiety, or worry that is affecting their daily functioning. This group helps parents better understand the meaning behind their child&rsquo;s behavior, learn ways to develop consistency in parenting routines, and learn strategies that will help parents support children with managing stress and anxiety.
+    	</p>
+    	<p>
+        <span style="font-weight: bold; color:rgb(0,112,192);">STAR Family Group</span> supports children ages 7-13 who have experienced or witnessed a stressful event and their parent(s)/caregiver(s). Children and caregiver(s) work together to overcome common family challenges that arise after a stressful event occurs. Families will identify and build on current strengths to improve stress management skills, increase positive family interactions, and support the parent-child relationship.
+      	</p>
+      </div>
+    </div>
+</div>
+<div>
+    <div class="collapse" id="group">
+      <div class="card card-body">
+      	<p>
+       		<strong>Additional Information <span style="color:rgb(0,112,192);">for STAR Groups!</span></strong>
+    	</p>
+    	<p>
+    		<span style="color: rgb(255,0,0);"><strong><u>Most insurance is accepted. </u></strong></span>
+		</p>
+
+		<dl class="list-unstyled" style="color:rgb(0,112,192);">
+			<dt>
+				STAR Groups meet for 12 consecutive Tuesday evenings.
+			</dt>
+			<dd>STAR Family Group meets from 4:30-6:00 pm</dd>
+			<dd>STAR Superparenting Group meets from 6:00-7:30 pm</dd>
+		</dl>
+    	<p>
+    		STAR Groups run throughout the year. Rolling registration places families in the next available group series. Group start dates are announced 3-4 weeks in advance.
+		</p>
+    	<dl>
+    		<dt>Within 5 business days of completing this screening form, we will contact you to scheddle a 60-minute intake session at STAR Clinic to:</dt>
+    		<dd>1) Learn more about the program.</dd>
+    		<dd>2) Ask questions and meet the clinical team.</dd>
+    		<dd>3) Make sure the program is of interest to you.</dd>
+    		<dd>4) Provide an estimate for your group&rsquo;s start date.</dd>
+
+		</dl>
+		<address>
+			<strong>STAR Groups meet at:</strong><br>
+			UCLA Semel Institute<br>
+			760 Westwood Plaza<br>
+			Los Angeles, CA, 90024<br>
+			phone - 310-825-7573<br>
+			email - starclinic@mednet.ucla.edu<br>
+			UCLA STAR Clinic is located across from Ronald Reagan Hospital in Westwood.
+		</address>
+
+      </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+jQuery(function (){
+	jQuery('#clinic').collapse('show');
+});
+jQuery('#clinic').on('show.bs.collapse', function () {
+	jQuery('#group').collapse('hide'); 
+})
+jQuery('#group').on('show.bs.collapse', function () {
+	jQuery('#clinic').collapse('hide'); 
+})	
+</script>
